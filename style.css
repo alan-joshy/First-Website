@@ -1,0 +1,122 @@
+/* Reset default margin and padding */
+body, h1, h3, p, ul, li, table, td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0A4D68;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 20px;
+  background-color: #088395;
+}
+
+.faceimg {
+  float: left;
+  margin-right: 20px;
+}
+
+.header-text p {
+  margin-bottom: 10px;
+}
+
+.name {
+  font-family: 'Courier New', monospace;
+}
+
+.first-section ul {
+  padding-left: 50px;
+}
+
+.first-section h3 {
+  padding: 15px;
+}
+
+.second-section {
+  padding: 15px;
+}
+.second-section h3 {
+  padding-bottom: 10px;
+}
+.second-section table {
+  padding: 15px;
+}
+
+.third-section {
+  padding: 15px;
+}
+.third-section h3 {
+  padding-bottom: 10px;
+}
+footer {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+}
+
+th {
+  background-color: #088395;
+}
+.contact-box {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #088395;
+  margin: 20px;
+}
+
+.contact-box h3 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-box label {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-box input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.contact-box input[type="submit"] {
+  padding: 5px 10px; /* Adjust the padding to reduce the button size */
+  font-size: 16px;
+  background-color: #0A4D68;
+  color: white;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 auto; /* Center the button horizontally */
+  display: block; /* Ensures the button takes full width */
+  width: fit-content; /* Adjusts the button width to its content */
+}
+
+.contact-box input[type="submit"]:hover {
+  background-color: white;
+  color: red;
+}
